@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000 !important; /* Force Pure Black */
+    background: #000000 !important;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.message {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+    pointer-events: none;
+    text-shadow: 0 0 10px #ff00de, 0 0 20px #ff00de;
+    font-family: 'Brush Script MT', cursive;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #ffccff;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ff99cc;
+}
